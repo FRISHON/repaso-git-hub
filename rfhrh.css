@@ -1,13 +1,11 @@
 h1 {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 700;
+  color: #2c3e50;
   text-align: center;
-
-  /* degradé básico azul-violeta */
-  background: linear-gradient(90deg, #6a00ff, #00d4ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-
-  /* sombra ligera para contraste */
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+  margin: 40px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #3498db;
+  padding-bottom: 10px;
+}
